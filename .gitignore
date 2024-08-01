@@ -1,0 +1,4 @@
+node_modules/
+ignoredStuff/
+.vscode/
+.gitignorecho

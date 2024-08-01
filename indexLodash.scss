@@ -1,0 +1,152 @@
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+
+    .text-wrapper {
+        position: sticky;
+        background-color: rgb(235, 235, 38);
+        text-align: center;
+    }
+
+    ul {
+        list-style-position: inside;
+        list-style-image: url(images/favicon11.ico);
+    }
+
+    a {
+        display: inline-block;
+        width: auto;
+        padding: 2px 1px 0;
+
+        line-height: 3;
+
+        text-align: center;
+
+        color: black;
+    }
+
+    a:link {
+        color: #265301;
+    }
+
+    a:visited {
+        color: #437a16;
+    }
+
+    a:focus {
+        border-bottom: 1px solid;
+        background: #bae498;
+    }
+
+
+    a:active {
+        color: #cdfeaa;
+        background: #265301;
+    }
+
+    a[href*="http"] {
+        padding-right: 19px;
+
+        background: url("images/elink.png") no-repeat 100% 0;
+        background-size: 16px 16px;
+    }
+
+    .java-script {
+        font-size: large;
+
+        color: olivedrab;
+    }
+
+    #myscript2 {
+        border: 5px solid red;
+    }
+
+    #container {
+        position: relative;
+
+        width: 120px;
+        height: 120px;
+
+        border-radius: 10%;
+        background: olive;
+    }
+
+    #animate {
+        position: absolute;
+
+        width: 10px;
+        height: 10px;
+        margin: 2px;
+
+        border-radius: 50%;
+        background-color: mediumpurple;
+    }
+
+    .buttonsjs {
+        display: flex;
+
+        align-items: stretch;
+    }
+
+    .buttonssection {
+        padding: 5px 10px;
+        margin: 0 10px;
+
+        transition: background-color;
+        transition-delay: .1s;
+        transition-timing-function: ease-in-out;
+        transition-duration: 2s;
+
+        border: 1px solid olivedrab;
+        border-radius: 10px;
+    }
+
+    .buttonssection:hover {
+        background-color: #ffeb3b;
+    }
+
+    .chessboard {
+        width: 500px;
+        height: 500px;
+        background: #cdfeaa;
+        table-layout: fixed;
+        border-collapse: collapse;
+        border: 1px solid mediumpurple;
+        border-color: #18b5a4;
+
+        tr {
+            vertical-align: top;
+
+            border: 1px solid mediumpurple;
+
+            align-content: center;
+        }
+
+        tr:nth-of-type(even)>td:nth-of-type(even) {
+            background: olive;
+        }
+
+        tr:nth-of-type(odd)>td:nth-of-type(odd) {
+            background: olive;
+        }
+
+        th {
+            padding: 10px;
+
+            font-style: italic;
+            caption-side: bottom;
+
+            border: 1px solid mediumpurple;
+            background-color: gold;
+        }
+
+        td {
+            text-align: center;
+
+            border: 1px solid mediumpurple;
+        }
+
+    }
+}

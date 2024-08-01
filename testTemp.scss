@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  background: #E7EBF0;
+  color: #003366;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 1170px;
+  margin: 0px auto;
+  background: #E7EBF0;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #003366;
+}
+
+.header__logo {}
+
+.header__image {
+  height: 80px;
+  width: 320px;
+}
+
+.header__catalog {}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__nav a {
+  letter-spacing: 0.10em;
+  height: 31px;
+  color: #003366;
+  text-transform: uppercase;
+  font-weight: normal;
+  background-color: #E7EBF0;
+  padding: 5px;
+  margin: auto 5px;
+}
+
+.header__nav a:hover {
+  color: #663366;
+  background-color: #B1BDCD;
+  transition-duration: 0.5s;
+}
+
+.header__nav a:focus {
+  color: #663366;
+  background-color: #B1BDCD;
+  transition-duration: 0.5s;
+}
+
+.header__nav a:active {
+  color: #660F57;
+  background-color: #B1BDCD;
+  transition-duration: 0.5s;
+}
+
+.header__contacts {}
+
+
+.content {
+  width: 100%;
+  flex: 1 1 auto;
+  margin: 82px auto 20px;
+}
+
+.content__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__about {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #003366;
+}
+
+.content__about-head {
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto 0px 0px;
+}
+
+.content__triangle-top-left {
+
+  width: 0;
+  height: 0;
+  border-top: 50px solid #003366;
+  border-right: 50px solid transparent;
+}
+
+.content__about-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: auto 0px;
+}
+
+.content__about-subtitle {
+  margin: 5px;
+  text-indent: 20px;
+}
+
+.content__about-end {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 0px auto;
+}
+
+.content__triangle-bot-right {
+  width: 0;
+  height: 0;
+  border-bottom: 50px solid #003366;
+  border-left: 50px solid transparent;
+  margin-left: auto;
+}
+
+.content__about-second-title {
+  font-size: 12px;
+  font-style: italic;
+  margin: auto;
+}
+
+.footer__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid #003366;
+  height: 40px;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "mypublicsiteaboutfrontend",
+  "version": "1.0.0",
+  "description": "site how make a site",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tamaxan/tamaxan.github.io.git"
+  },
+  "keywords": [
+    "frontend"
+  ],
+  "author": "TaMaxAn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tamaxan/tamaxan.github.io/issues"
+  },
+  "homepage": "https://github.com/Tamaxan/tamaxan.github.io#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "eslint": "^9.8.0",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.8.0",
+    "prettier": "^3.3.3"
+  }
+}
