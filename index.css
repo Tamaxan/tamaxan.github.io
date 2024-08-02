@@ -38,7 +38,6 @@
   font-family: SecondFont;
   src: url("fonts/KodeMono-SemiBold.ttf");
 }
-
 * {
   font-family: MainFont;
 }
@@ -62,6 +61,7 @@ h1 {
 h2,
 h3,
 h4 {
+  width: -moz-fit-content;
   width: fit-content;
   padding: 1px 5px 1px 5px;
   margin: 0;
@@ -142,6 +142,7 @@ code {
 }
 .content .header {
   width: 100%;
+  height: -moz-fit-content;
   height: fit-content;
   position: sticky;
   top: 0;
@@ -179,6 +180,7 @@ code {
 .content .header .title-container #clock:hover #time-hover {
   padding-left: 10px;
   display: block;
+  width: -moz-fit-content;
   width: fit-content;
   margin: 2px;
   text-align: center;
@@ -359,9 +361,6 @@ code {
   border-right: 1px solid hsl(60, 84%, 85%);
   padding-left: 5px;
 }
-.content .content-section .main-container .main .main-content ol {
-  list-style: none;
-}
 .content .content-section .main-container .main .main-content ol,
 .content .content-section .main-container .main .main-content ul {
   padding-left: 25px;
@@ -433,5 +432,4 @@ code {
 }
 .content footer .description:hover .descripion-text {
   display: block;
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
