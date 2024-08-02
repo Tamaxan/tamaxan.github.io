@@ -1,4 +1,3 @@
-console.log("Hello, World!");
 const start = performance.now();
 function openSite() { 
   window.open("https://ru.kinorium.com/","_blank");
