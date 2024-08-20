@@ -97,3 +97,4 @@ document.getElementById('clock').addEventListener('mouseover', () => setInterval
 
 const end = performance.now();
 console.log(end - start);
+console.log('test');
